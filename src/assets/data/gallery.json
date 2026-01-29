@@ -1,0 +1,190 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "url": "https://www.routeonwheels.com/assets/images/go.JPG",
+            "alt": "Route On Wheels Gallery Image 1",
+            "type": "photo",
+            "category": "landscape"
+        },
+        {
+            "id": 2,
+            "url": "https://www.routeonwheels.com/assets/images/go1.JPG",
+            "alt": "Route On Wheels Gallery Image 2",
+            "type": "photo",
+            "category": "travel"
+        },
+        {
+            "id": 3,
+            "url": "https://www.routeonwheels.com/assets/images/go2.JPG",
+            "alt": "Route On Wheels Gallery Image 3",
+            "type": "photo",
+            "category": "adventure"
+        },
+        {
+            "id": 4,
+            "url": "https://www.routeonwheels.com/assets/images/go3.JPG",
+            "alt": "Route On Wheels Gallery Image 4",
+            "type": "photo",
+            "category": "landscape"
+        },
+        {
+            "id": 5,
+            "url": "https://www.routeonwheels.com/assets/images/GO11.JPG",
+            "alt": "Route On Wheels Gallery Image 5",
+            "type": "photo",
+            "category": "cultural"
+        },
+        {
+            "id": 6,
+            "url": "https://www.routeonwheels.com/assets/images/go5.JPG",
+            "alt": "Route On Wheels Gallery Image 6",
+            "type": "photo",
+            "category": "nature"
+        },
+        {
+            "id": 7,
+            "url": "https://www.routeonwheels.com/assets/images/go6.JPG",
+            "alt": "Route On Wheels Gallery Image 7",
+            "type": "photo",
+            "category": "mountain"
+        },
+        {
+            "id": 8,
+            "url": "https://www.routeonwheels.com/assets/images/go7.JPG",
+            "alt": "Route On Wheels Gallery Image 8",
+            "type": "photo",
+            "category": "adventure"
+        },
+        {
+            "id": 9,
+            "url": "https://www.routeonwheels.com/assets/images/go8.JPG",
+            "alt": "Route On Wheels Gallery Image 9",
+            "type": "photo",
+            "category": "landscape"
+        },
+        {
+            "id": 10,
+            "url": "https://www.routeonwheels.com/assets/images/go9.JPG",
+            "alt": "Route On Wheels Gallery Image 10",
+            "type": "photo",
+            "category": "travel"
+        },
+        {
+            "id": 11,
+            "url": "https://www.routeonwheels.com/assets/images/go10.JPG",
+            "alt": "Route On Wheels Gallery Image 11",
+            "type": "photo",
+            "category": "nature"
+        },
+        {
+            "id": 12,
+            "url": "https://www.routeonwheels.com/assets/images/GO99.JPG",
+            "alt": "Route On Wheels Gallery Image 12",
+            "type": "photo",
+            "category": "cultural"
+        },
+        {
+            "id": 13,
+            "url": "https://www.routeonwheels.com/assets/images/GO12.JPG",
+            "alt": "Route On Wheels Gallery Image 13",
+            "type": "photo",
+            "category": "adventure"
+        },
+        {
+            "id": 14,
+            "url": "https://www.routeonwheels.com/assets/images/GO13.JPG",
+            "alt": "Route On Wheels Gallery Image 14",
+            "type": "photo",
+            "category": "landscape"
+        },
+        {
+            "id": 15,
+            "url": "https://www.routeonwheels.com/assets/images/GO14.JPG",
+            "alt": "Route On Wheels Gallery Image 15",
+            "type": "photo",
+            "category": "mountain"
+        },
+        {
+            "id": 16,
+            "url": "https://www.routeonwheels.com/assets/images/GO15.JPG",
+            "alt": "Route On Wheels Gallery Image 16",
+            "type": "photo",
+            "category": "nature"
+        },
+        {
+            "id": 17,
+            "url": "https://www.routeonwheels.com/assets/images/GO16.JPG",
+            "alt": "Route On Wheels Gallery Image 17",
+            "type": "photo",
+            "category": "travel"
+        },
+        {
+            "id": 18,
+            "url": "https://www.routeonwheels.com/assets/images/GO17.JPG",
+            "alt": "Route On Wheels Gallery Image 18",
+            "type": "photo",
+            "category": "cultural"
+        },
+        {
+            "id": 19,
+            "url": "https://www.routeonwheels.com/assets/images/GO20.JPG",
+            "alt": "Route On Wheels Gallery Image 19",
+            "type": "photo",
+            "category": "landscape"
+        },
+        {
+            "id": 20,
+            "url": "https://www.routeonwheels.com/assets/images/GO21.JPG",
+            "alt": "Route On Wheels Gallery Image 20",
+            "type": "photo",
+            "category": "adventure"
+        },
+        {
+            "id": 21,
+            "url": "https://www.routeonwheels.com/assets/images/GO22.JPG",
+            "alt": "Route On Wheels Gallery Image 21",
+            "type": "photo",
+            "category": "mountain"
+        },
+        {
+            "id": 22,
+            "url": "https://www.routeonwheels.com/assets/images/GO23.JPG",
+            "alt": "Route On Wheels Gallery Image 22",
+            "type": "photo",
+            "category": "nature"
+        },
+        {
+            "id": 23,
+            "url": "https://www.routeonwheels.com/assets/images/GO24.JPG",
+            "alt": "Route On Wheels Gallery Image 23",
+            "type": "photo",
+            "category": "travel"
+        },
+        {
+            "id": 24,
+            "url": "https://www.routeonwheels.com/assets/images/GO19.JPG",
+            "alt": "Route On Wheels Gallery Image 24",
+            "type": "photo",
+            "category": "landscape"
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+            "title": "Route On Wheels Journey",
+            "type": "video",
+            "category": "travel"
+        },
+        {
+            "id": 2,
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+            "title": "Adventure Highlights",
+            "type": "video",
+            "category": "adventure"
+        }
+    ]
+}

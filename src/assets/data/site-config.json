@@ -1,0 +1,28 @@
+{
+    "siteInfo": {
+        "name": "Route On Wheels",
+        "tagline": "Explore Tours, Destinations & Travel Blogs",
+        "description": "Route on Wheels is devoted to reimagining travel through the spirit of sustainability and mindful exploration",
+        "founder": "Vivek Rauthan",
+        "phone": "+91-9899175374",
+        "phoneAlt": "8979084590",
+        "email": "routeonwheels@gmail.com",
+        "address": "5B-69, Kumhar Gali, Mayapuri Ajabpur Kalan, Dehradun, Uttarakhand 248001, INDIA",
+        "socialMedia": {
+            "instagram": "https://instagram.com/routeonwheels",
+            "facebook": "https://facebook.com/routeonwheels",
+            "youtube": "https://youtube.com/@routeonwheels"
+        }
+    },
+    "images": {
+        "logo": "https://www.routeonwheels.com/assets/images/log.png",
+        "hero": "https://www.routeonwheels.com/assets/images/31.png",
+        "about": "https://www.routeonwheels.com/assets/images/about.png",
+        "aboutHero": "https://www.routeonwheels.com/assets/images/home-two/hero/t1.jpg",
+        "blogHero": "https://www.routeonwheels.com/assets/images/GO19.JPG",
+        "galleryHero": "https://www.routeonwheels.com/assets/images/go7.JPG",
+        "contactHero": "https://www.routeonwheels.com/assets/images/GO14.JPG",
+        "toursHero": "https://www.routeonwheels.com/assets/images/GO20.JPG",
+        "ctaImage": "https://www.routeonwheels.com/assets/images/go9.JPG"
+    }
+}

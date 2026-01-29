@@ -1,0 +1,196 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Kurushetra – The land of the Bhagavad Gita",
+            "slug": "kurukshetra-bhagavad-gita",
+            "excerpt": "For those who seek spirituality and timeless wisdom, the journey begins in Kurukshetra...",
+            "content": "For those who seek spirituality and timeless wisdom, the journey begins in Kurukshetra. In today's world, life often feels rushed and disconnected from deeper meaning. Kurukshetra offers a chance to reconnect with ancient wisdom and spiritual heritage.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/be1664743f6741d746bb877877c57a2d.png",
+            "author": "Route On Wheels",
+            "date": "2026-01-19",
+            "displayDate": "19 Jan",
+            "category": "Spiritual",
+            "tags": [
+                "kurukshetra",
+                "bhagavad gita",
+                "spiritual journey",
+                "hindu pilgrimage"
+            ],
+            "featured": true,
+            "seo": {
+                "title": "Kurukshetra - The Sacred Land of Bhagavad Gita | Route On Wheels Blog",
+                "description": "Discover the spiritual significance of Kurukshetra, the sacred land where Lord Krishna delivered the Bhagavad Gita to Arjuna.",
+                "keywords": "kurukshetra, bhagavad gita, spiritual tourism, hindu pilgrimage sites"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Bagini Glacier Trek – A Hidden Gem of Uttarakhand's High",
+            "slug": "bagini-glacier-trek-uttarakhand",
+            "excerpt": "Tucked deep inside the Nanda Devi National Park region, the Bagini Glacier Trek is one of Uttarakhand's most stunning yet...",
+            "content": "Tucked deep inside the Nanda Devi National Park region, the Bagini Glacier Trek is one of Uttarakhand's most stunning yet lesser-known trekking routes. Experience pristine mountain landscapes and breathtaking views.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/aa0dd5e653fc708c371e239f741a0e8a.png",
+            "author": "Route On Wheels",
+            "date": "2025-12-10",
+            "displayDate": "10 Dec",
+            "category": "Trekking",
+            "tags": [
+                "bagini glacier",
+                "uttarakhand trek",
+                "nanda devi",
+                "himalayan trek"
+            ],
+            "featured": true,
+            "seo": {
+                "title": "Bagini Glacier Trek - Hidden Uttarakhand Trek | Route On Wheels",
+                "description": "Explore the pristine Bagini Glacier Trek in Uttarakhand's Nanda Devi region. A complete guide to this stunning Himalayan adventure.",
+                "keywords": "bagini glacier trek, uttarakhand trekking, nanda devi national park, himalayan treks"
+            }
+        },
+        {
+            "id": 3,
+            "title": "The Ram Vanvaas Trail: A Spiritual Travel Journey",
+            "slug": "ram-vanvaas-trail-spiritual-journey",
+            "excerpt": "Following the Sacred Footsteps Across India's Timeless Landscapes In Indian sacred Sanskrit epic – Ramayana...",
+            "content": "Following the Sacred Footsteps Across India's Timeless Landscapes. In Indian sacred Sanskrit epic – Ramayana, Lord Shri Ram is considered one of the most revered deities. Follow his journey through India's sacred sites.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/e16853ee2b42daf35c433a0c197b438f.png",
+            "author": "Route On Wheels",
+            "date": "2025-12-10",
+            "displayDate": "10 Dec",
+            "category": "Spiritual",
+            "tags": [
+                "ramayana",
+                "ram vanvaas",
+                "spiritual journey",
+                "religious tourism"
+            ],
+            "featured": true,
+            "seo": {
+                "title": "Ram Vanvaas Trail - Spiritual Journey Following Ramayana | Route On Wheels",
+                "description": "Embark on a spiritual journey following Lord Ram's exile path across India. Experience the sacred sites from the Ramayana epic.",
+                "keywords": "ram vanvaas, ramayana trail, spiritual tourism, hindu pilgrimage"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Motorbike tour of Uttarakhand – The Land of Mother Ganges",
+            "slug": "uttarakhand-motorbike-tour",
+            "excerpt": "Embark on an exhilarating motorbike adventure through the vibrant landscapes of Maharashtra!...",
+            "content": "Embark on an exhilarating motorbike adventure through the vibrant landscapes of Maharashtra! From winding mountain roads to scenic coastal routes, experience the thrill of riding through diverse terrains.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/7c46c0c14cd07c789cbab673a4b2fef8.png",
+            "author": "Route On Wheels",
+            "date": "2025-09-15",
+            "displayDate": "15 Sep",
+            "category": "Adventure",
+            "tags": [
+                "motorbike tour",
+                "uttarakhand",
+                "bike adventure",
+                "ganges"
+            ],
+            "featured": false,
+            "seo": {
+                "title": "Uttarakhand Motorbike Tour - Ride Through Ganges Land | Route On Wheels",
+                "description": "Experience the ultimate motorbike adventure through Uttarakhand's scenic routes along the holy Ganges. Thrilling rides in the Himalayas.",
+                "keywords": "uttarakhand motorbike tour, himalayan bike ride, ganges tour, adventure biking"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Highway to Heaven",
+            "slug": "highway-to-heaven-maharashtra",
+            "excerpt": "Set out on the ultimate motorbike adventure along the Highway to Heaven, a route that winds through Maharashtra's most spectacular...",
+            "content": "Set out on the ultimate motorbike adventure along the Highway to Heaven, a route that winds through Maharashtra's most spectacular mountain passes and valleys. Experience breathtaking vistas and thrilling rides.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/f61d12507f7101b8d3bc19d477e279fa.png",
+            "author": "Route On Wheels",
+            "date": "2025-09-15",
+            "displayDate": "15 Sep",
+            "category": "Adventure",
+            "tags": [
+                "highway to heaven",
+                "maharashtra",
+                "bike route",
+                "scenic drive"
+            ],
+            "featured": false,
+            "seo": {
+                "title": "Highway to Heaven Maharashtra - Epic Bike Route | Route On Wheels",
+                "description": "Ride the legendary Highway to Heaven through Maharashtra's stunning mountain landscapes. A biker's paradise with spectacular views.",
+                "keywords": "highway to heaven, maharashtra bike routes, scenic motorcycle rides, adventure biking"
+            }
+        },
+        {
+            "id": 6,
+            "title": "A ride from city of dream to pearl of the Orient! Motorbike tour!",
+            "slug": "mumbai-to-goa-motorbike-tour",
+            "excerpt": "Gear up for the ultimate motorbike adventure as you journey from the City of Dreams, Mumbai, to the Pearl of...",
+            "content": "Gear up for the ultimate motorbike adventure as you journey from the City of Dreams, Mumbai, to the Pearl of the Orient. Experience coastal roads, scenic landscapes, and vibrant culture on two wheels.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/d4d4dbee0dfeff84213184470a8acb48.png",
+            "author": "Route On Wheels",
+            "date": "2025-09-15",
+            "displayDate": "15 Sep",
+            "category": "Adventure",
+            "tags": [
+                "mumbai to goa",
+                "motorbike tour",
+                "coastal ride",
+                "maharashtra tour"
+            ],
+            "featured": false,
+            "seo": {
+                "title": "Mumbai to Goa Motorbike Tour - Coastal Adventure | Route On Wheels",
+                "description": "Ride from Mumbai to Goa on an epic motorbike journey along India's stunning west coast. Experience beaches, ghats, and culture.",
+                "keywords": "mumbai goa bike tour, coastal motorcycle ride, konkan route, maharashtra goa tour"
+            }
+        },
+        {
+            "id": 7,
+            "title": "An Authentic tribal experience of Odisha!!",
+            "slug": "odisha-tribal-experience",
+            "excerpt": "Immerse yourself in the vibrant culture and traditions of Odisha with a journey that takes you deep into the heart...",
+            "content": "Immerse yourself in the vibrant culture and traditions of Odisha with a journey that takes you deep into the heart of tribal communities. Experience authentic village life, traditional crafts, and ancient customs.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/c4e09e3d9ffa8ea72e02fc1fbe38c45e.png",
+            "author": "Route On Wheels",
+            "date": "2025-09-15",
+            "displayDate": "15 Sep",
+            "category": "Cultural",
+            "tags": [
+                "odisha",
+                "tribal tourism",
+                "cultural experience",
+                "authentic travel"
+            ],
+            "featured": false,
+            "seo": {
+                "title": "Odisha Tribal Experience - Authentic Cultural Tour | Route On Wheels",
+                "description": "Experience authentic tribal culture in Odisha with our immersive tours. Meet indigenous communities and explore traditional customs.",
+                "keywords": "odisha tribal tour, tribal tourism india, cultural tourism odisha, authentic village experience"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Jaunsari Marriage Harul Dance",
+            "slug": "jaunsari-marriage-harul-dance",
+            "excerpt": "The Harul Dance is an integral part of the Aunsari community's marriage celebrations, a vibrant tradition...",
+            "content": "The Harul Dance is an integral part of the Jaunsari community's marriage celebrations, a vibrant tradition that brings together music, dance, and age-old customs. Experience this unique cultural phenomenon in the Himalayan foothills.",
+            "image": "https://control.routeonwheels.com/uploads/blogs/6baa3087a6815bffbd8467c994fd7614.png",
+            "author": "Route On Wheels",
+            "date": "2025-09-15",
+            "displayDate": "15 Sep",
+            "category": "Cultural",
+            "tags": [
+                "jaunsari",
+                "harul dance",
+                "traditional wedding",
+                "uttarakhand culture"
+            ],
+            "featured": false,
+            "seo": {
+                "title": "Jaunsari Harul Dance - Traditional Wedding Culture | Route On Wheels",
+                "description": "Discover the Jaunsari Harul Dance, a vibrant wedding tradition from Uttarakhand's Jaunsari community. Experience authentic Himalayan culture.",
+                "keywords": "jaunsari harul dance, traditional wedding dance, uttarakhand culture, jaunsari traditions"
+            }
+        }
+    ]
+}

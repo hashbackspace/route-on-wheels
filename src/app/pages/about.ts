@@ -1,16 +1,19 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SeoService } from '../services/seo';
 
+declare const AOS: any;
+
 @Component({
   selector: 'app-about',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, NgOptimizedImage],
   templateUrl: './about.html',
   styleUrl: './about.scss',
 })
-export class About implements OnInit {
+export class About implements OnInit, AfterViewInit {
   private seoService = inject(SeoService);
+  private platformId = inject(PLATFORM_ID);
 
   values = [
     {
@@ -49,5 +52,15 @@ export class About implements OnInit {
       ogUrl: 'https://routeonwheels.com/about',
       canonicalUrl: 'https://routeonwheels.com/about',
     });
+  }
+
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        if (typeof AOS !== 'undefined') {
+          AOS.refreshHard();
+        }
+      }, 100);
+    }
   }
 }

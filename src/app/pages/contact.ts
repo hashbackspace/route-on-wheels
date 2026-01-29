@@ -1,8 +1,10 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { SeoService } from '../services/seo';
+
+declare const AOS: any;
 
 @Component({
   selector: 'app-contact',
@@ -10,8 +12,9 @@ import { SeoService } from '../services/seo';
   templateUrl: './contact.html',
   styleUrl: './contact.scss',
 })
-export class Contact implements OnInit {
+export class Contact implements OnInit, AfterViewInit {
   private seoService = inject(SeoService);
+  private platformId = inject(PLATFORM_ID);
 
   formData = {
     name: '',
@@ -31,6 +34,16 @@ export class Contact implements OnInit {
       ogUrl: 'https://routeonwheels.com/contact',
       canonicalUrl: 'https://routeonwheels.com/contact',
     });
+  }
+
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        if (typeof AOS !== 'undefined') {
+          AOS.refreshHard();
+        }
+      }, 100);
+    }
   }
 
   onSubmit(): void {

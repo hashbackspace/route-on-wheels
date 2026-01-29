@@ -1,7 +1,9 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SeoService } from '../services/seo';
+
+declare const AOS: any;
 
 @Component({
   selector: 'app-tours',
@@ -9,8 +11,9 @@ import { SeoService } from '../services/seo';
   templateUrl: './tours.html',
   styleUrl: './tours.scss',
 })
-export class Tours implements OnInit {
+export class Tours implements OnInit, AfterViewInit {
   private seoService = inject(SeoService);
+  private platformId = inject(PLATFORM_ID);
 
   lifeChangingTours = [
     {
@@ -123,5 +126,15 @@ export class Tours implements OnInit {
       ogUrl: 'https://routeonwheels.com/tours',
       canonicalUrl: 'https://routeonwheels.com/tours',
     });
+  }
+
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        if (typeof AOS !== 'undefined') {
+          AOS.refreshHard();
+        }
+      }, 100);
+    }
   }
 }

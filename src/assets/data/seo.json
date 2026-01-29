@@ -1,0 +1,46 @@
+{
+    "pages": {
+        "home": {
+            "title": "Route On Wheels | Explore Tours, Destinations & Travel Blogs",
+            "description": "Discover transformative travel experiences across India with Route On Wheels. Explore spiritual journeys, eco-conscious tours, and authentic adventures that connect you with nature and culture.",
+            "keywords": "route on wheels, india travel, spiritual tours, eco-tourism, sustainable travel, adventure tours india, cultural tourism, bike tours india",
+            "ogImage": "https://www.routeonwheels.com/assets/images/31.png",
+            "canonicalUrl": "https://routeonwheels.com/"
+        },
+        "about": {
+            "title": "About Us | Route On Wheels",
+            "description": "Learn about Route On Wheels - Founded by Vivek Rauthan & Ashishta Negi with 12-15 years of experience in Indian tourism. We create sustainable, transformative travel experiences.",
+            "keywords": "about route on wheels, vivek rauthan, sustainable tourism, responsible travel india, travel company india",
+            "ogImage": "https://www.routeonwheels.com/assets/images/about.png",
+            "canonicalUrl": "https://routeonwheels.com/about"
+        },
+        "tours": {
+            "title": "Tours | Route On Wheels",
+            "description": "Explore our life-changing travel experiences across India. Discover spiritual journeys, eco-conscious tours, and transformative adventures.",
+            "keywords": "India tours, spiritual tours, eco-tourism, adventure travel, pilgrimage tours, cultural tours india",
+            "ogImage": "https://control.routeonwheels.com/uploads/subcategories/4431a56e1ed01c82c4f40a2cccbe3eb1.png",
+            "canonicalUrl": "https://routeonwheels.com/tours"
+        },
+        "blog": {
+            "title": "Travel Blogs | Route On Wheels",
+            "description": "Read inspiring travel stories, destination guides, and adventure tips from Route On Wheels. Discover India through our travel blog.",
+            "keywords": "travel blog, india travel stories, destination guides, adventure blog, spiritual travel, cultural tourism blog",
+            "ogImage": "https://control.routeonwheels.com/uploads/blogs/be1664743f6741d746bb877877c57a2d.png",
+            "canonicalUrl": "https://routeonwheels.com/blog"
+        },
+        "gallery": {
+            "title": "Photo Gallery | Route On Wheels",
+            "description": "Explore stunning travel photography from our journeys across India. View beautiful landscapes, cultural moments, and adventure highlights.",
+            "keywords": "travel photography, india photos, adventure gallery, travel images, tour photos, landscape photography",
+            "ogImage": "https://www.routeonwheels.com/assets/images/go7.JPG",
+            "canonicalUrl": "https://routeonwheels.com/gallery"
+        },
+        "contact": {
+            "title": "Contact Us | Route On Wheels",
+            "description": "Get in touch with Route On Wheels for tour inquiries, bookings, and travel planning. Located in Dehradun, Uttarakhand, India.",
+            "keywords": "contact route on wheels, tour booking, travel inquiry, dehradun travel company, book india tour",
+            "ogImage": "https://www.routeonwheels.com/assets/images/GO14.JPG",
+            "canonicalUrl": "https://routeonwheels.com/contact"
+        }
+    }
+}

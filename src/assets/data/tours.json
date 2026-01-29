@@ -1,0 +1,94 @@
+{
+    "tours": [
+        {
+            "id": 1,
+            "title": "Janusar Bawar Vilage Tour",
+            "slug": "janusar-bawar-village-tour",
+            "description": "Village tour to India takes the tourist up-close to the indigenous cultures that are radiant for so many years. Community…",
+            "fullDescription": "Village tour to India takes the tourist up-close to the indigenous cultures that are radiant for so many years. Community-based tourism experiences that showcase authentic village life.",
+            "image": "https://control.routeonwheels.com/uploads/subcategories/4431a56e1ed01c82c4f40a2cccbe3eb1.png",
+            "badge": "Popular",
+            "category": "cultural",
+            "duration": "5 days",
+            "price": 25000,
+            "featured": true,
+            "seo": {
+                "title": "Janusar Bawar Village Tour - Cultural Experience | Route On Wheels",
+                "description": "Experience authentic village life in India with our Janusar Bawar village tour. Immerse yourself in indigenous cultures and traditions.",
+                "keywords": "janusar bawar, village tour, cultural tourism, india village experience"
+            }
+        },
+        {
+            "id": 2,
+            "title": "A Road To The Great Rann Of Kutch",
+            "slug": "rann-of-kutch-tour",
+            "description": "This journey will take you through a motley mix of landscapes. There are the endless miles of scrubland that offer…",
+            "fullDescription": "This journey will take you through a motley mix of landscapes. There are the endless miles of scrubland that offer spectacular views of the white desert.",
+            "image": "https://control.routeonwheels.com/uploads/subcategories/dbe2f31867375ef103be883acd0d38a5.png",
+            "badge": "Trending",
+            "category": "adventure",
+            "duration": "7 days",
+            "price": 35000,
+            "featured": true,
+            "seo": {
+                "title": "Rann of Kutch Tour - White Desert Experience | Route On Wheels",
+                "description": "Explore the magnificent white desert of Kutch with our expertly curated tour packages. Experience the unique landscape and culture.",
+                "keywords": "rann of kutch, white desert, gujarat tourism, kutch tour"
+            }
+        },
+        {
+            "id": 3,
+            "title": "A Journery To Seeing The Unseen Of Maharashtra",
+            "slug": "unseen-maharashtra-tour",
+            "description": "Maharashtra is not all about Mumbai & Pune, there is more to offer you which are untouched and unknown… it's…",
+            "fullDescription": "Maharashtra is not all about Mumbai & Pune, there is more to offer you which are untouched and unknown. Explore the hidden gems of Maharashtra.",
+            "image": "https://control.routeonwheels.com/uploads/subcategories/84843b9a12c44c29b1dd6e92327980f2.png",
+            "badge": null,
+            "category": "exploration",
+            "duration": "6 days",
+            "price": 28000,
+            "featured": true,
+            "seo": {
+                "title": "Unseen Maharashtra Tour - Hidden Gems | Route On Wheels",
+                "description": "Discover the unexplored destinations of Maharashtra beyond Mumbai and Pune. Experience the hidden treasures of this diverse state.",
+                "keywords": "maharashtra tourism, offbeat maharashtra, hidden maharashtra, maharashtra tour"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Telangana & Andhra Pradesh Through Temple Tour",
+            "slug": "telangana-andhra-temple-tour",
+            "description": "Andhra Pradesh and Telangana are well known among spiritual travelers for their beautifully fortified temples that epitomize the architectural brilliance…",
+            "fullDescription": "Andhra Pradesh and Telangana are well known among spiritual travelers for their beautifully fortified temples that epitomize the architectural brilliance of ancient India.",
+            "image": "https://control.routeonwheels.com/uploads/subcategories/3de2222f6582e3bdaca1df0814d630b5.png",
+            "badge": "Spiritual",
+            "category": "spiritual",
+            "duration": "8 days",
+            "price": 32000,
+            "featured": true,
+            "seo": {
+                "title": "Telangana & Andhra Pradesh Temple Tour | Route On Wheels",
+                "description": "Embark on a spiritual journey through the ancient temples of Telangana and Andhra Pradesh. Experience divine architecture and sacred sites.",
+                "keywords": "temple tour, telangana temples, andhra pradesh temples, spiritual tour india"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Adi Kailash By Road",
+            "slug": "adi-kailash-tour",
+            "description": "'Adi Kailash' is considered Lord Shiva's oldest abode. Among the five abodes of Shiva 'Adi Kailash' is situated at a…",
+            "fullDescription": "'Adi Kailash' is considered Lord Shiva's oldest abode. Among the five abodes of Shiva 'Adi Kailash' is situated at a breathtaking altitude in the Himalayas.",
+            "image": "https://control.routeonwheels.com/uploads/subcategories/be9e6a1bce95c3a767dda1b4de28dd29.png",
+            "badge": "Sacred",
+            "category": "pilgrimage",
+            "duration": "12 days",
+            "price": 45000,
+            "featured": true,
+            "seo": {
+                "title": "Adi Kailash Tour by Road - Sacred Pilgrimage | Route On Wheels",
+                "description": "Join our Adi Kailash tour by road, visiting Lord Shiva's sacred abode in the Himalayas. Experience divine spirituality at high altitude.",
+                "keywords": "adi kailash, kailash tour, himalayan pilgrimage, sacred tour"
+            }
+        }
+    ]
+}

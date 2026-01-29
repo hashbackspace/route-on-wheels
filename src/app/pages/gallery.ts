@@ -1,7 +1,9 @@
-import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, inject, PLATFORM_ID, AfterViewInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { SeoService } from '../services/seo';
+
+declare const AOS: any;
 
 @Component({
   selector: 'app-gallery',
@@ -9,8 +11,9 @@ import { SeoService } from '../services/seo';
   templateUrl: './gallery.html',
   styleUrl: './gallery.scss',
 })
-export class Gallery implements OnInit {
+export class Gallery implements OnInit, AfterViewInit {
   private seoService = inject(SeoService);
+  private platformId = inject(PLATFORM_ID);
 
   images = [
     {
@@ -149,5 +152,15 @@ export class Gallery implements OnInit {
       ogUrl: 'https://routeonwheels.com/gallery',
       canonicalUrl: 'https://routeonwheels.com/gallery',
     });
+  }
+
+  ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
+        if (typeof AOS !== 'undefined') {
+          AOS.refreshHard();
+        }
+      }, 100);
+    }
   }
 }
