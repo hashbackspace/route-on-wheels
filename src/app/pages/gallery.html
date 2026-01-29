@@ -1,0 +1,70 @@
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="page-hero-bg">
+        <img src="https://www.routeonwheels.com/assets/images/go7.JPG" alt="Gallery Hero" loading="eager">
+        <div class="page-hero-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="page-hero-content" data-aos="fade-up">
+            <h1>Gallery</h1>
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a routerLink="/">Home</a>
+                <span>/</span>
+                <span>Gallery</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="section">
+    <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+            <span class="section-tag">Explore Gallery</span>
+            <h2 class="section-title">Our World, Your Next Destination Journey Highlights</h2>
+        </div>
+
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-tabs" data-aos="fade-up">
+            <ul class="gallery-filter">
+                <li class="active">Show All</li>
+                <li>Photos</li>
+                <li>Videos</li>
+            </ul>
+        </div>
+
+        <div class="gallery-masonry" data-aos="fade-up" data-aos-delay="200">
+            @for (image of images; track image.src) {
+            <div class="gallery-item">
+                <img [src]="image.src" [alt]="image.alt" loading="lazy">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta section">
+    <div class="cta-shapes">
+        <div class="cta-shape shape-1"></div>
+        <div class="cta-shape shape-2"></div>
+    </div>
+    <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Take Advantage of Our Exclusive Offer!</p>
+            <p class="cta-desc">Whether you're dreaming of sun-soaked beaches, charming city escapes, or thrilling
+                mountain treks, we've got the perfect getaway for you.</p>
+            <a routerLink="/contact" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-check"></i>
+                BOOKING TOURS
+            </a>
+        </div>
+        <div class="cta-image" data-aos="fade-left">
+            <img src="https://www.routeonwheels.com/assets/images/go7.JPG" alt="Adventure awaits" loading="lazy">
+        </div>
+    </div>
+</section>

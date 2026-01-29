@@ -1,0 +1,144 @@
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="page-hero-bg">
+        <img src="https://www.routeonwheels.com/assets/images/GO20.JPG" alt="Tours Hero" loading="eager">
+        <div class="page-hero-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="page-hero-content" data-aos="fade-up">
+            <h1>Our Tours</h1>
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a routerLink="/">Home</a>
+                <span>/</span>
+                <span>Tours</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Life Changing Experience Section -->
+<section class="tours section" id="life-changing">
+    <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+            <span class="section-tag">A Life Changing Experience</span>
+            <h2 class="section-title">Transformative Journeys Await</h2>
+            <p class="section-desc">Discover tours that will change your perspective and touch your soul</p>
+        </div>
+
+        <div class="tours-slider" data-aos="fade-up" data-aos-delay="200">
+            <div class="tours-track">
+                @for (tour of lifeChangingTours; track tour.title) {
+                <article class="tour-card">
+                    <div class="tour-image">
+                        <img [src]="tour.image" [alt]="tour.title" loading="lazy">
+                        @if (tour.badge) {
+                        <span class="tour-badge">{{ tour.badge }}</span>
+                        }
+                    </div>
+                    <div class="tour-content">
+                        <h3>{{ tour.title }}</h3>
+                        <p>{{ tour.description }}</p>
+                        <div class="tour-footer">
+                            <a routerLink="/contact" class="btn btn-text">
+                                View Details <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Wisdom Seeker Section -->
+<section class="destinations section" id="wisdom-seeker">
+    <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+            <span class="section-tag">Wisdom Seeker</span>
+            <h2 class="section-title">Discover Authentic Journeys and Timeless Places</h2>
+            <p class="section-desc">Travel is more than visiting new places—it's about creating experiences</p>
+        </div>
+
+        <div class="destinations-grid" data-aos="fade-up" data-aos-delay="200">
+            <article class="destination-card featured">
+                <div class="card-image">
+                    <img [src]="wisdomSeekerTours[0].image" [alt]="wisdomSeekerTours[0].title" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>{{ wisdomSeekerTours[0].title }}</h3>
+                    <p>{{ wisdomSeekerTours[0].description }}</p>
+                    <a routerLink="/contact" class="btn btn-outline-light">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            @for (tour of wisdomSeekerTours.slice(1); track tour.title) {
+            <article class="destination-card">
+                <div class="card-image">
+                    <img [src]="tour.image" [alt]="tour.title" loading="lazy">
+                    <div class="card-overlay"></div>
+                </div>
+                <div class="card-content">
+                    <h3>{{ tour.title }}</h3>
+                    <p>{{ tour.description }}</p>
+                    <a routerLink="/contact" class="card-link">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- RS Tours Section -->
+<section class="sustainable section" id="rs-tours">
+    <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+            <span class="section-tag">RS Tours</span>
+            <h2 class="section-title">Responsible & Sustainable Travel</h2>
+            <p class="section-desc">Eco-conscious journeys that make a positive impact</p>
+        </div>
+
+        <div class="sustainable-grid" data-aos="fade-up" data-aos-delay="200">
+            @for (tour of rsTours; track tour.title) {
+            <article class="sustainable-card">
+                <div class="card-image">
+                    <img [src]="tour.image" [alt]="tour.title" loading="lazy">
+                </div>
+                <div class="card-body">
+                    <h3>{{ tour.title }}</h3>
+                    <p>{{ tour.description }}</p>
+                    <a routerLink="/contact" class="btn btn-outline">Explore</a>
+                </div>
+            </article>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta section">
+    <div class="cta-shapes">
+        <div class="cta-shape shape-1"></div>
+        <div class="cta-shape shape-2"></div>
+    </div>
+    <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Take Advantage of Our Exclusive Offer!</p>
+            <p class="cta-desc">Whether you're dreaming of sun-soaked beaches, charming city escapes, or thrilling
+                mountain treks, we've got the perfect getaway for you.</p>
+            <a routerLink="/contact" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-check"></i>
+                Book Your Tour
+            </a>
+        </div>
+        <div class="cta-image" data-aos="fade-left">
+            <img src="https://www.routeonwheels.com/assets/images/GO20.JPG" alt="Adventure awaits" loading="lazy">
+        </div>
+    </div>
+</section>

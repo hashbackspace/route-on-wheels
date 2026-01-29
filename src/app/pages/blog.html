@@ -1,0 +1,87 @@
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="page-hero-bg">
+        <img src="https://www.routeonwheels.com/assets/images/GO19.JPG" alt="Blog Hero" loading="eager">
+        <div class="page-hero-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="page-hero-content" data-aos="fade-up">
+            <h1>Blog</h1>
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a routerLink="/">Home</a>
+                <span>/</span>
+                <span>Blog</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="blog section">
+    <div class="blog-shapes">
+        <div class="blog-shape shape-1"></div>
+        <div class="blog-shape shape-2"></div>
+    </div>
+    <div class="container">
+        <div class="blog-grid" data-aos="fade-up" data-aos-delay="200">
+            @for (blog of blogs; track blog.title) {
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img [src]="blog.image" [alt]="blog.title" loading="lazy">
+                    <span class="blog-date">{{ blog.date }}</span>
+                </div>
+                <div class="blog-content">
+                    <h3>{{ blog.title }}</h3>
+                    <p>{{ blog.description }}</p>
+                    <a routerLink="/blog" class="btn btn-text">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="section" style="background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);">
+    <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+            <span class="section-tag">Stay Updated</span>
+            <h2 class="section-title">Subscribe to Our Newsletter</h2>
+            <p class="section-desc">Get travel tips, exclusive offers, and inspiring stories delivered to your inbox</p>
+        </div>
+        <div style="max-width: 500px; margin: 0 auto; text-align: center;">
+            <form class="newsletter-form" style="display: flex; gap: 10px; justify-content: center;">
+                <input type="email" placeholder="Your email address" required
+                    style="flex: 1; padding: 14px 20px; border: 1px solid #e0e0e0; border-radius: 8px;">
+                <button type="submit" class="btn btn-primary">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta section">
+    <div class="cta-shapes">
+        <div class="cta-shape shape-1"></div>
+        <div class="cta-shape shape-2"></div>
+    </div>
+    <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Take Advantage of Our Exclusive Offer!</p>
+            <p class="cta-desc">Whether you're dreaming of sun-soaked beaches, charming city escapes, or thrilling
+                mountain treks, we've got the perfect getaway for you.</p>
+            <a routerLink="/contact" class="btn btn-light btn-lg">
+                <i class="fas fa-calendar-check"></i>
+                BOOKING TOURS
+            </a>
+        </div>
+        <div class="cta-image" data-aos="fade-left">
+            <img src="https://www.routeonwheels.com/assets/images/GO19.JPG" alt="Adventure awaits" loading="lazy">
+        </div>
+    </div>
+</section>
